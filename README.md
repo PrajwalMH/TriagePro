@@ -1,48 +1,128 @@
 # 🏥 TriagePro
 
-A **full-stack AI-powered patient triage and appointment system** built with:
+A **full-stack AI-powered patient triage & appointment booking system** built with:
 
-- 🧩 **Spring Boot** — backend API + MySQL database
-- ⚡ **Next.js** — frontend with a beautiful dashboard, input & booking pages
-- 🤖 **Python Flask** — AI microservice for triage prediction
+- 🧩 **Spring Boot + MySQL** for backend APIs & database
+- ⚡ **Next.js + Tailwind CSS** for modern responsive frontend
+- 🤖 **Python Flask microservice** for AI-based triage prediction
 
 ---
 
 ## 🚀 Features
 
 ✅ **Smart Symptom Triage**  
-- Enter patient symptoms.
-- Predicts triage level (LOW / MEDIUM / HIGH) and department using an AI model.
+- Predicts department & urgency level (LOW / MEDIUM / HIGH) from user input using AI.
 
-✅ **Fancy Dashboard**  
-- Shows all patient triage logs.
-- Includes live filters and a pie chart visualization.
+✅ **Interactive Dashboard**  
+- Shows all triage logs in a table.
+- Live filters and pie chart visualization.
 
 ✅ **Appointment Booking**  
-- Book an appointment with selected doctor and time slot.
-- Saves appointments to backend.
+- Book slots with a doctor based on triage outcome.
 
 ✅ **Modern UI**  
-- Built with Next.js + Tailwind.
-- Smooth navigation, color transitions, animated splash screen.
+- Animated splash screen, smooth transitions, active nav links.
 
 ---
 
 ## 🏗️ Tech Stack
 
-| Layer    | Tech                        |
-|----------|-----------------------------|
-| Frontend | Next.js + Tailwind CSS      |
-| Backend  | Spring Boot + MySQL         |
-| AI       | Python Flask microservice   |
-| Charting | react-chartjs-2 + Chart.js  |
+| Layer    | Technologies                       |
+|----------|------------------------------------|
+| Frontend | Next.js, Tailwind CSS, Chart.js    |
+| Backend  | Spring Boot, MySQL                 |
+| AI       | Python Flask microservice          |
 
 ---
 
-## ⚙️ Getting Started
+## ⚙️ How to Run This Project
 
-### 📦 Clone & Setup
+### 📦 Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/TriagePro.git
 cd TriagePro
+```
+
+---
+
+### 🚀 Start the Spring Boot backend
+
+✅ Make sure your **MySQL server is running** and database `triagepro_db` exists.
+
+Then run:
+
+```bash
+cd TriagePro-Backend
+./mvnw spring-boot:run
+```
+
+or on Windows:
+
+```bash
+mvnw.cmd spring-boot:run
+```
+
+📌 Backend runs on: **http://localhost:8080**
+
+---
+
+### 🤖 Start the AI microservice (Flask)
+
+```bash
+cd TriagePro-AI
+python app.py
+```
+
+📌 AI microservice runs on: **http://localhost:5000**
+
+---
+
+### 🌐 Start the Next.js frontend
+
+```bash
+cd TriagePro-Frontend
+npm install
+npm run dev
+```
+
+📌 Frontend runs on: **http://localhost:3000**
+
+---
+
+## 📝 Example Inputs
+
+| Symptom Input                                      | Predicted Output                          |
+|----------------------------------------------------|------------------------------------------|
+| `I have chest pain and shortness of breath`        | 🔥 HIGH — Cardiology                     |
+| `I have fever and a little cough`                  | 🟡 MEDIUM — General Medicine             |
+| `Just feeling a bit tired with mild headache`      | 🟢 LOW — General Medicine                |
+| `Sudden onset of chest tightness`                  | 🔥 HIGH — Cardiology                     |
+
+---
+
+## 📸 Screenshots
+
+Include frontend UI screenshots from your repo:
+
+```markdown
+![Dashboard View](./TriagePro-Frontend/screenshots/dashboard.png)
+![Symptom Input](./TriagePro-Frontend/screenshots/symptoms.png)
+```
+
+---
+
+## 📝 Future Enhancements
+
+- 🩺 Use a real trained ML model with TensorFlow / Scikit-Learn.
+- 📅 Integrate a calendar view for appointments.
+- 🔔 Email / SMS notifications to patients.
+- 🔒 Add authentication for patients & doctors.
+
+---
+
+## 👨‍💻 Author
+
+**Prajwal Mrithyunjay Hulamani**  
+- [GitHub](https://github.com/yourusername)  
+- [LinkedIn](https://linkedin.com/in/yourprofile)
