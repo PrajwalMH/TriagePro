@@ -124,5 +124,5 @@ Include frontend UI screenshots from your repo:
 ## 👨‍💻 Author
 
 **Prajwal Mrithyunjay Hulamani**  
-- [GitHub](https://github.com/yourusername)  
-- [LinkedIn](https://linkedin.com/in/yourprofile)
+- [GitHub]([https://github.com/yourusername](https://github.com/PrajwalMH))  
+- [LinkedIn](https://www.linkedin.com/in/prajwalhulamani/)
