@@ -50,8 +50,6 @@ cd TriagePro
 
 ✅ Make sure your **MySQL server is running** and database `triagepro_db` exists.
 
-Then run:
-
 ```bash
 cd TriagePro-Backend
 ./mvnw spring-boot:run
@@ -101,14 +99,16 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots Gallery
 
-Include frontend UI screenshots from your repo:
+<p align="center">
+  <img src="./TriagePro-Frontend/screenshots/dashboard.png" width="400"/>
+  <img src="./TriagePro-Frontend/screenshots/symptoms.png" width="400"/>
+  <img src="./TriagePro-Frontend/screenshots/booking.png" width="400"/>
+</p>
 
-```markdown
-![Dashboard View](./TriagePro-Frontend/screenshots/dashboard.png)
-![Symptom Input](./TriagePro-Frontend/screenshots/symptoms.png)
-```
+✅ Add as many images as you want.  
+Ensure they are all stored under `TriagePro-Frontend/screenshots/`.
 
 ---
 
@@ -124,5 +124,5 @@ Include frontend UI screenshots from your repo:
 ## 👨‍💻 Author
 
 **Prajwal Mrithyunjay Hulamani**  
-- [GitHub]([https://github.com/yourusername](https://github.com/PrajwalMH))  
-- [LinkedIn](https://www.linkedin.com/in/prajwalhulamani/)
+- [GitHub](https://github.com/yourusername)  
+- [LinkedIn](https://linkedin.com/in/yourprofile)
