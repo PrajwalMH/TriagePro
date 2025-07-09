@@ -124,5 +124,5 @@ Ensure they are all stored under `TriagePro-Frontend/screenshots/`.
 ## 👨‍💻 Author
 
 **Prajwal Mrithyunjay Hulamani**  
-- [GitHub](https://github.com/yourusername)  
-- [LinkedIn](https://linkedin.com/in/yourprofile)
+- [GitHub](https://github.com/PrajwalMH)  
+- [LinkedIn](https://www.linkedin.com/in/prajwalhulamani/)
