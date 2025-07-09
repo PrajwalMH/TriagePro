@@ -104,7 +104,12 @@ npm run dev
 <p align="center">
   <img src="./TriagePro Images/1.png" width="1000"/>
   <img src="./TriagePro Images/3.png" width="1000"/>
-  <img src="./TriagePro Images/4.png" width="1000"/>
+  <img src="./TriagePro Images/4.jpg" width="1000"/>
+  <img src="./TriagePro Images/5.jpg" width="1000"/>
+  <img src="./TriagePro Images/6.jpg" width="1000"/>
+  <img src="./TriagePro Images/7.jpg" width="1000"/>
+  <img src="./TriagePro Images/8.jpg" width="1000"/>
+  v
 </p>
 
 ✅ Add as many images as you want.  
